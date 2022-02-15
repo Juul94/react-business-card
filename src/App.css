@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+* {
+  margin:0;
+  padding:0;
+}
+
+html, body {
+  background: #23252C;
+}
+
+.bg {
+  background:#1A1B21;
+  border-radius: 10px;
+  margin-top:35px;
+  margin-bottom:35px;
+}
+
+/********** header.js **********/
+
+.header--image {
+  width:100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.header--name {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top:20px;
+}
+
+.header--profession {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #F3BF99;
+}
+
+.header--website {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: center;
+  color: #F5F5F5;
+}
+
+.btn_email::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  content: "\f0e0";
+  color:#1E1F26;
+  padding-right:10px;
+}
+
+.btn_email {
+  width: 100%;
+  height: 34px;
+
+  background: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #374151;
+}
+
+.fa-brands.fa-linkedin {
+  padding-right:10px;
+}
+
+.btn_linkedin {
+  width: 100%;
+  height: 34px;
+
+  background: #5093E2;
+  border: none;
+  border-radius: 6px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+/********** main.js **********/
+
+.p_40_top {
+  padding:40px 40px 0 40px;
+}
+
+.p_40_bot {
+  padding:0 40px 40px 40px;
+}
+
+h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  color: #F5F5F5;
+}
+
+p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+}
+
+/********** main.js **********/
+
+.social_bg {
+  background:#161619;
+  padding:20px;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.social_bg .fa-brands {
+  font-size:250%;
+  font-weight:700;
+  color:#918E9B;
+  padding-right:25px;
+}
+
+.social_bg .fa-brands:last-child {
+  padding-right:0;
+}
+
+.social_bg .fa-brands:hover {
+  cursor: pointer;
+}
